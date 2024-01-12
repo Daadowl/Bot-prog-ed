@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-01-12T18:10:52.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36" etag="Cz0GM3bhkORCiPEenMsV" version="22.1.18" type="device">
+  <diagram name="Страница — 1" id="77eE9NfnhSdwaSwIZEm8">
+    <mxGraphModel dx="874" dy="471" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mhcToevdbATT-4KvIHqk-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="104" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-2" value="Интерфейс (Telegram)" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-3" value="Сервер" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="350" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;" parent="1" target="mhcToevdbATT-4KvIHqk-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="220" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;" parent="1" source="mhcToevdbATT-4KvIHqk-2" target="mhcToevdbATT-4KvIHqk-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="460" as="sourcePoint" />
+            <mxPoint x="360" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;" parent="1" source="mhcToevdbATT-4KvIHqk-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="450" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;" parent="1" target="mhcToevdbATT-4KvIHqk-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="510" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;" parent="1" source="mhcToevdbATT-4KvIHqk-3" target="mhcToevdbATT-4KvIHqk-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhcToevdbATT-4KvIHqk-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#FFFFFF;shadow=1;fontColor=#FFFFFF;" parent="1" source="mhcToevdbATT-4KvIHqk-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="440" as="sourcePoint" />
+            <mxPoint x="150" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WtSr8bsPdVSmyvCB4XLX-1" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="497" y="291" width="85" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="WtSr8bsPdVSmyvCB4XLX-2" value="База данных&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="495" y="331" width="89" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
