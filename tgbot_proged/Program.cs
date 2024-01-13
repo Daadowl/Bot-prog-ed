@@ -11,7 +11,7 @@ using System.CodeDom.Compiler;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
-string TELEGRAM_TOKEN = "6601479198:AAG4kp0fv3ylyFy9_3YhCXECWjaTY57xtGk";
+string TELEGRAM_TOKEN = "...";
 var botClient = new TelegramBotClient(TELEGRAM_TOKEN);
 using var cts = new CancellationTokenSource();
 
